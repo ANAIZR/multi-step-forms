@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    src: url(../assets/fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    src: url(../assets/fonts/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    src: url(../assets/fonts/Ubuntu-Bold.ttf);
+}
+
+body {
+    background: hsl(217, 100%, 97%);
+}
+
+.bg-primero {
+    background: url("../assets/images/bg-sidebar-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+
+
+.boton {
+    border-radius: 50%;
+    padding: 8px;
+    background: transparent;
+    border: solid hsl(0, 0%, 100%) 1px;
+    color: hsl(231, 100%, 99%);
+
+}
+.boton:hover{
+    background: hsl(228, 100%, 84%) ;
+    color: hsl(213, 96%, 18%);
+}
+.contain-dato {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+.container{
+    height: 70vh;
+}
+.title-h2 {
+    color: hsl(213, 96%, 18%);
+    font-weight: 700;
+    padding: 5px;
+}
+
+.parraf-h2 {
+    color: hsl(231, 11%, 63%);
+    padding: 5px;
+}
+
+.form-label {
+    color: hsl(213, 96%, 18%);
+    font-weight: 500;
+    padding: 2px;
+}
+
+.form-input {
+    border:  hsl(217, 100%, 97%) 2px solid;
+    padding: 5px;
+}

@@ -1,0 +1,13 @@
+@media (min-width:1240px) {
+   body{
+      background: hsl(231, 11%, 63%);
+   }
+   .bg-primero {
+      background: url("../assets/images/bg-sidebar-desktop.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 80vh;
+      width: 40%;
+  }
+}
